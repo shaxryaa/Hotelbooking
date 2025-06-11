@@ -2,8 +2,49 @@ import React from 'react'
 
 const SellingPoints = () => {
   return (
-    <div>SellingPoints</div>
-  )
-}
+    <section className="py-16 px-6 space-y-24">
+      {/* First Selling Point */}
+      <div className="flex flex-col md:flex-row items-center gap-10">
+        {/* Text Left */}
+        <div className="md:w-1/2">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4">Comfort Meets Luxury</h2>
+          <p className="text-gray-700">
+            StayKaro offers a seamless hotel booking experience with luxurious rooms,
+            handpicked amenities, and 24/7 customer support — all designed to give you 
+            a hassle-free stay at unbeatable prices.
+          </p>
+        </div>
+        {/* Image Right */}
+        <div className="md:w-1/2">
+          <img
+            src="/hotelimage3.jpg"
+            alt="Luxury Room"
+            className="w-full rounded-lg shadow-lg object-cover h-64"
+          />
+        </div>
+      </div>
 
-export default SellingPoints
+      {/* Second Selling Point */}
+      <div className="flex flex-col md:flex-row-reverse items-center gap-10">
+        {/* Text Right */}
+        <div className="md:w-1/2">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4">Instant Booking & Support</h2>
+          <p className="text-gray-700">
+            With our easy-to-use platform, users can book hotels instantly and receive real-time 
+            confirmations. Our support team is always just a click away to ensure your plans go smoothly.
+          </p>
+        </div>
+        {/* Image Left */}
+        <div className="md:w-1/2">
+          <img
+            src="/hotelimage4.webp"
+            alt="Booking Support"
+            className="w-full rounded-lg shadow-lg object-cover h-64"
+          />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default SellingPoints;
