@@ -1,6 +1,5 @@
 "use client";
 import React from 'react'
-
 const Hero = () => {
   return (
     <section
@@ -24,7 +23,7 @@ const Hero = () => {
 
           
           <div className="md:w-1/2 bg-white bg-opacity-90 p-6 rounded-lg shadow-md text-gray-800 w-full max-w-md">
-            <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
+            <h2 className="text-3xl font-semibold mb-4 text-center">Get in Touch</h2>
             <form className="space-y-4">
               <input
                 type="text"
@@ -55,5 +54,4 @@ const Hero = () => {
     </section>
   )
 }
-
 export default Hero

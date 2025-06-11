@@ -7,7 +7,6 @@ const MissionVision = () => {
         </h2>
 
         <div className="flex flex-col md:flex-row md:space-x-12 space-y-10 md:space-y-0">
-          {/* Mission Section */}
           <div className="bg-white shadow-md p-8 rounded-lg flex-1 border-l-4 border-blue-500">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">Our Mission</h3>
             <p className="text-gray-600">
@@ -16,7 +15,6 @@ const MissionVision = () => {
             </p>
           </div>
 
-          {/* Vision Section */}
           <div className="bg-white shadow-md p-8 rounded-lg flex-1 border-l-4 border-blue-700">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">Our Vision</h3>
             <p className="text-gray-600">

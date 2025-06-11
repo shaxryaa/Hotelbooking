@@ -1,12 +1,13 @@
 "use client";
-import React from 'react'
+import React from "react";
 
 const FeaturedCarousel = () => {
   const featuredItems = [
     {
       id: 1,
       title: "Deluxe Suite",
-      description: "Spacious suite with sea view, king bed, and private balcony.",
+      description:
+        "Spacious suite with sea view, king bed, and private balcony.",
       image: "/hotelimage1.jpg",
     },
     {
@@ -19,29 +20,25 @@ const FeaturedCarousel = () => {
       id: 3,
       title: "Fine Dining",
       description: "Enjoy gourmet meals from world-class chefs.",
-      image:
-        "/hotelimage3.jpg",
+      image: "/hotelimage3.jpg",
     },
     {
       id: 4,
       title: "Deluxe Hotel",
       description: "Enjoy best view",
-      image:
-        "/hotelimage4.webp",
+      image: "/hotelimage4.webp",
     },
     {
       id: 5,
       title: "Radisson Blu",
       description: "Enjoy gourmet meals from world-class chefs.",
-      image:
-        "/hotelimage5.jpeg",
+      image: "/hotelimage5.jpeg",
     },
     {
       id: 6,
       title: "Emerald",
       description: "Rejuvenate with our premium spa and wellness facilities.",
-      image:
-        "/hotelimage6.webp",
+      image: "/hotelimage6.webp",
     },
   ];
   return (
@@ -51,7 +48,7 @@ const FeaturedCarousel = () => {
         {featuredItems.map((item) => (
           <div
             key={item.id}
-            className="min-w-[280px] max-w-xs bg-white rounded-xl shadow-md overflow-hidden border"
+            className="min-w-[280px] max-w-xs bg-white rounded-xl shadow-md overflow-hidden border-2 border-gray-200 transition-transform duration-300 hover:scale-105"
           >
             <img
               src={item.image}
@@ -69,7 +66,7 @@ const FeaturedCarousel = () => {
         ))}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default FeaturedCarousel
+export default FeaturedCarousel;

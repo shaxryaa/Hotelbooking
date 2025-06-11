@@ -1,5 +1,5 @@
 import React from 'react'
-import SearchBar from "@/components/SearchBar";
+import SearchBar from '@/components/SearchBar';
 import Hero from "@/components/Hero";
 import FeaturedCarousel from "@/components/FeaturedCarousel";
 import SellingPoints from "@/components/SellingPoints";

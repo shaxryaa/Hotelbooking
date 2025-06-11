@@ -6,7 +6,6 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white py-10 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 text-sm">
         
-        {/* Quick Links */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-2">
@@ -17,7 +16,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact Info */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
           <ul className="space-y-2">
@@ -27,7 +25,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Social Media */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
           <div className="flex gap-4 text-xl">
@@ -38,7 +35,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Copyright */}
         <div className="md:col-span-1 mt-6 md:mt-0 text-center md:text-left">
           <h3 className="text-lg font-semibold mb-4">StayKaro</h3>
           <p className="text-gray-400">© 2025 StayKaro. All rights reserved.</p>
