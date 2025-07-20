@@ -38,10 +38,10 @@ const CompanyHistory = () => {
         <h2 className="text-3xl font-bold text-blue-700 text-center mb-12">
           Our History
         </h2>
-        <div className="relative border-l-4 border-blue-500 ml-4">
+        <div className="relative border-l-4 border-blue-500 ml-6">
           {milestones.map((item, idx) => (
-            <div key={idx} className="mb-10 ml-10">
-              <div className="absolute -left-3.5 w-7 h-7 rounded-full bg-blue-500 text-white flex items-center justify-center font-bold">
+            <div key={idx} className="mb-15 ml-10">
+              <div className="absolute -left-3.5 w-7 h-8 rounded-full bg-blue-500 text-white flex items-center justify-center font-bold">
                 {item.year.slice(2)}
               </div>
               <h3 className="text-xl font-semibold text-gray-800">

@@ -21,7 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body cz-shortcut-listen="true">
         <Navbar />
         <main className="pt-20">{children}</main>
         <Footer />

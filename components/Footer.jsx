@@ -20,8 +20,8 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
           <ul className="space-y-2">
             <li>Email: support@staykaro.com</li>
-            <li>Phone: +91 98765 43210</li>
-            <li><a href="#contact" className="hover:underline">Contact Form</a></li>
+            <li>Phone: +91 89293 7204</li>
+            <li><a href="#contact" className="hover: underline">Contact Form</a></li>
           </ul>
         </div>
 
