@@ -4,6 +4,15 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { usePathname } from "next/navigation";
+import {
+  ClerkProvider,
+  SignInButton,
+  SignOutButton,
+  SignUpButton,
+  SignedIn,
+  SignedOut,
+  UserButton,
+} from '@clerk/nextjs'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -47,8 +56,16 @@ const Navbar = () => {
 
           
           <div className="flex items-center space-x-3">
-            <Link href="/login" className={`px-4 py-2 rounded transition ${scrolled ? 'border border-blue-600 text-blue-600 hover:bg-blue-50' : (isHomepage ? 'border border-white text-white hover:bg-white hover:text-black hover:bg-opacity-90' : 'border border-blue-600 text-blue-600 hover:bg-blue-50')}`}>Login</Link>
-            <Link href="/signup" className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Sign Up</Link>
+            <SignedOut>
+              <SignInButton>
+                <button className={`px-4 py-2 rounded transition ${scrolled ? 'bg-blue-600 text-white hover:bg-blue-700' : (isHomepage ? 'bg-white text-black hover:bg-gray-200' : 'bg-blue-600 text-white hover:bg-blue-700')}`}>
+                  Sign In
+                </button>
+              </SignInButton>
+            </SignedOut>
+            <SignedIn>
+              <UserButton />
+            </SignedIn>
           </div>
         </div>
 
@@ -88,20 +105,18 @@ const Navbar = () => {
           >
             Blog
           </Link>
-          <Link
-            href="/login"
-            onClick={toggleMenu}
-            className={`block ${scrolled ? 'text-blue-600 hover:text-blue-800' : (isHomepage ? 'text-blue-300 hover:text-white' : 'text-blue-600 hover:text-blue-800')}`}
-          >
-            Login
-          </Link>
-          <Link
-            href="/signup"
-            onClick={toggleMenu}
-            className="block text-blue-600"
-          >
-            Sign Up
-          </Link>
+    
+          <SignedOut>
+              <SignInButton />
+              <SignUpButton>
+                <button className={`block ${scrolled ? 'text-blue-600 hover:text-blue-800' : (isHomepage ? 'text-blue-300 hover:text-white' : 'text-blue-600 hover:text-blue-800')}`}>
+                  Sign Up
+                </button>
+              </SignUpButton>
+            </SignedOut>
+            <SignedIn>
+              <UserButton />
+            </SignedIn>
         </div>
       )}
     </nav>
