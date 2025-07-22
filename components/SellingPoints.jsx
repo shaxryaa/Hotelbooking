@@ -3,7 +3,7 @@ import React from 'react'
 const SellingPoints = () => {
   return (
     <section className="py-16 px-6 space-y-24">
-      <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">Why Choose Us</h2>
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Why Choose Us</h2>
       <div className="flex flex-col md:flex-row items-center gap-10">
         <div className="md:w-1/2">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Comfort Meets Luxury</h2>
