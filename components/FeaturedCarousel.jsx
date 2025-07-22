@@ -68,7 +68,41 @@ const featuredItems = [
     rating: 4.8,
     image: "/hotelimage6.webp",
   },
+  {
+    id: 7,
+    title: "Royal Heritage Hotel",
+    location: "Rajpath, Jaipur",
+    beds: 4,
+    baths: 3,
+    sqft: 4000,
+    price: 5000,
+    rating: 4.6,
+    image: "/hotelimage7.jpg",
+  },
+  {
+    id: 8,
+    title: "City Central Hotel",
+    location: "Connaught Place, Delhi",
+    beds: 3,
+    baths: 2,
+    sqft: 2500,
+    price: 3000,
+    rating: 4.6,
+    image: "/hotelimage8.jpg",
+  },
+  {
+    id: 9,
+    title: "Mountain Escape",
+    location: "Shimla Hills",
+    beds: 3,
+    baths: 2,
+    sqft: 3000,
+    price: 5000,
+    rating: 4.8,
+    image: "/hotelimage9.jpg",
+  },
 ];
+
 
 const StarIcon = () => (
   <svg className="h-4 w-4 text-orange-500 mr-1 inline" fill="currentColor" viewBox="0 0 20 20">
