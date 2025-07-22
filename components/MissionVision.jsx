@@ -2,7 +2,7 @@ const MissionVision = () => {
   return (
     <section className="bg-gray-50 py-16 px-4">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-3xl font-bold text-center text-blue-700 mb-12">
+        <h2 className="text-4xl font-bold text-center text-blue-700 mb-12">
           Our Mission & Vision
         </h2>
 

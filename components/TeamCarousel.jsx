@@ -31,7 +31,7 @@ const teamMembers = [
 const TeamCarousel = () => {
   return (
     <section className="py-16 bg-white">
-      <h2 className="text-3xl font-bold text-center text-blue-700 mb-12">Meet the Team</h2>
+      <h2 className="text-4xl font-bold text-center text-blue-700 mb-12">Meet the Team</h2>
       <div className="overflow-x-auto scrollbar-hide">
         <div className="flex space-x-10 px-6 md:px-50 w-max">
           {teamMembers.map((member, index) => (

@@ -88,7 +88,7 @@ const FeaturedCarousel = () => {
   return (
     <section className="py-16 px-6 bg-gray-50">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold mb-8 text-center">Featured Hotels</h2>
+        <h2 className="text-4xl font-bold mb-8 text-center">Featured Hotels</h2>
         <div className="flex gap-6 overflow-x-auto pb-4 scrollbar-hide scroll-smooth">
           {featuredItems.map((item) => (
             <div

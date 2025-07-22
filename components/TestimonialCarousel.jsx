@@ -32,7 +32,7 @@ const testimonials = [
 const TestimonialsCarousel = () => {
   return (
     <section className="py-16 px-6">
-      <h2 className="text-3xl font-bold mb-8 text-center">What Our Customers Say</h2>
+      <h2 className="text-4xl font-bold mb-8 text-center">What Our Customers Say</h2>
       <Swiper
         spaceBetween={20}
         slidesPerView={1}

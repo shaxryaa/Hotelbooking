@@ -43,7 +43,7 @@ const ServicesCarousel = () => {
     const [selected, setSelected] = useState(services[0]);
     return (
         <div className="w-full px-6 py-14 bg-white">
-        <h2 className="text-3xl font-bold text-center mb-10">Our Premium Services</h2>
+        <h2 className="text-4xl font-bold text-center mb-10">Our Premium Services</h2>
 
         {/* Horizontal Scroll Cards */}
         <div className="overflow-x-auto flex gap-6 pb-6 scrollbar-hide">

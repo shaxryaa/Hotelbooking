@@ -35,7 +35,7 @@ const CompanyHistory = () => {
   return (
     <section className="bg-white py-16 px-4">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-3xl font-bold text-blue-700 text-center mb-12">
+        <h2 className="text-4xl font-bold text-blue-700 text-center mb-12">
           Our History
         </h2>
         <div className="relative border-l-4 border-blue-500 ml-6">

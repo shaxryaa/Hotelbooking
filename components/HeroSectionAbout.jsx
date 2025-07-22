@@ -12,9 +12,10 @@ const HeroSectionAbout = () => {
         className="z-0"
         priority
       />
-      <div className="absolute inset-0 bg-opacity-50 flex items-center justify-start px-10">
+      <div className="absolute inset-0 bg-black/50 z-10"></div>
+      <div className="absolute inset-0 flex items-center justify-start px-10 z-20">
         <div className="text-white max-w-xl">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">
             Discover Our Journey and Vision
           </h1>
           <p className="text-lg">
